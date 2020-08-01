@@ -1,0 +1,30 @@
+v3.8.0
+======
+
+* ADD: NZD currency
+* FIX: BlueWallet should register to handle the BOLT11 lightning: URI #335
+* ADD: Chinese locale
+* REF: main screen only 15 txs. wallet screen txs lazy-load (better performance)
+* FIX: Update JP translation
+* ADD: CHF Currency
+* REF: Manage funds and marketplace buttons
+* ADD: InputAccesoryView for easy keyboard dismissal
+* FIX: Fixed color on view invoice
+* REF: UI responsiveness improvements
+
+v3.7.2
+======
+
+* FIX: status bar disappears #311
+* FIX: faulty back button on viewLndInvoice screen
+* FIX: lnd - create invoice - cant tap bottom half of button #303
+* FIX: Impossible to scan bech32 QR invoice with a specific amount (closes #296) 
+* REF: better lightning error reporting
+* FIX: not redering QR code #302
+* ADD: Indonesian Translation 
+* FIX: better LN wallet auto-refresh strategy 
+* FIX: Dismiss keyboard when pressing return 
+* FIX: HD wallet balance refresh
+* FIX: no wallet refresh upon startup (faster to start app) 
+* FIX: Dismiss keyboard when pressing return 
+* REF: HD wallet getbalance improvements
