@@ -1,0 +1,54 @@
+v4.9.2
+======
+
+* ADD: Swipe to Scan
+* ADD: Handle clipboard content with both bitcoin: and lightning:
+* ADD: Ask user if they have backed up their seed phrase
+* ADD: Export screen allows copying to clipboard if its a LNDHub wallet
+* ADD: Show LNDHub backup when creating lnd wallet
+* ADD: CLP Fiat
+* FIX: TX Time visual glitch
+* FIX: Show an alert when theres a fetch transactions error
+* FIX: TX list uses whole canvas area
+* FIX: Don't allow empty wallet labels
+* FIX: Wallet type selecion clipping on advanced mode
+* FIX: Receive address was not being rendered
+* FIX: Don't show wallet export warning if wallet was imported
+* REF: Reworked Import wallet flow
+* REF: BIP49 to use electrum
+* REF: Custom receive
+
+
+v4.9.0
+======
+
+* ADD: Native segwit (BIP84) are now default wallets
+* ADD: Toggle to turn off RBF when creating a transaction
+* ADD: Scroll to end of wallets list when adding a wallet
+* FIX: Default LN invoice expiry is now 24h instead of 1h
+* FIX: Speeded up lighnint wallets
+* FIX: Force Light theme mode even if system is in dark mode
+* FIX: Hide Manage Funds button if wallet doesn't allow onchain refill.
+* FIX: LN Scan to receive is more visible
+* FIX: Quick actions not appearing on non-3d touch devices.
+* FIX: Dont show clipboard modal when biometrics  is dismissed
+
+v4.8.1
+======
+
+* FIX: Updated biometrics
+* FIX: Import QR Code from screenshot not working
+
+v4.8.0
+======
+
+* ADD: Today Extension and Quick Actions
+* ADD: Send max option on advanced menu
+* ADD: Add Onchain address view for Lightning
+* FIX: Allow textfield to be visible above keyboard
+* FIX: lapp browser when typing URL without https scheme it doesnt work
+* ADD: Value and memo to the success screen fix logic for both sent and receive
+* FIX: layout for small devices with flexbox
+* FIX: Dont allow zero invoices to enable create invoice button
+* FIX: Change create button on Receive LN payment should be create invoice
+* FIX: Update for watch
