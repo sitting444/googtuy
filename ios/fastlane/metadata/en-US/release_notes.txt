@@ -1,0 +1,30 @@
+v4.2.0
+======
+
+* ADD: bumpfee (RBF) & cancelTx (RBF) for BIP84 HD wallet
+* ADD: CPFP for BIP84 HD wallets
+* ADD: Electrum server configuration
+* ADD: Hungarian localization
+* ADD: HUF fiat unit
+* FIX: receive address generation with no internet
+* FIX: wait for electrum connection before fetching tx or broadcast
+* FIX: Receive UI jumpiness
+* FIX: iOS App crashes when scaning QR Code
+* FIX: Amount when scanning was not displayed in amount UI
+* FIX: ln transaction details screen
+* FIX: import LN wallet with custom lndhub
+* FIX: BIP84 txs with low confirmations not updating
+* FIX: crash
+* REF: Swedish translation updates
+* REF: better initial HD rescan
+
+
+v4.1.0
+======
+
+* REF: faster initial HD rescan
+* FIX: ln transaction details screen
+* FIX: import LN wallet with custom lndhub
+* FIX: BIP84 txs with low confirmations not updating
+* FIX: crash
+* REF: Swedish translation updates
